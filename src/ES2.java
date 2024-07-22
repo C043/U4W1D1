@@ -9,5 +9,6 @@ public class ES2 {
         String terzaStringa = scanner.nextLine();
         System.out.println(primaStringa + " " + secondaStringa + " " + terzaStringa);
         System.out.println(terzaStringa + " " + secondaStringa + " " + primaStringa);
+        scanner.close();
     }
 }
