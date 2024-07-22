@@ -1,9 +1,7 @@
 public class ES1 {
     public static void main(String[] args) {
-        int result = moltiplica(2, 3);
-        System.out.println("Il risultato della moltiplicazione è " + result);
-        String concatenazione = concatena("count", 4);
-        System.out.println(concatenazione);
+        System.out.println("Il risultato della moltiplicazione è " + moltiplica(2, 30));
+        System.out.println(concatena("count", 10));
         String[] test = {"test1", "test2", "test3", "test4", "test5"};
         String[] testResult = inserisciInArray(test, "PROVA");
         for (String s : testResult) {
